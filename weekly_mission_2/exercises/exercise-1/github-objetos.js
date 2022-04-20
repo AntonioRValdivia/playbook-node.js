@@ -15,6 +15,7 @@ const repo = {
   }
  }
  
+ // Pruebas
  console.log("Nombre del repo:" + repo.name)
  console.log("Issues totales: " + repo.getTotalIssues())
  console.log(repo.getGeneralInfo())
@@ -37,6 +38,7 @@ const repo = {
     }
  }
 
+ // Pruebas
  console.log('Nombre del issue: ' + issue.title);
  console.log('Título y autor: ' + issue.getTitleAndAuthor());
  console.log(issue.getGeneralInfo());
@@ -58,6 +60,8 @@ const repo = {
     }
  }
 
+
+// Pruebas
  console.log(`Nombre del pull request ` + pullRequest.title);
  console.log('Título y autor:' + pullRequest.getTitleAndAuthor());
  console.log(pullRequest.getStatus());

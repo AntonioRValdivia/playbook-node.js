@@ -15,6 +15,7 @@ const user = {
     }
 }
 
+// Pruebas
 console.log('Nombre del usuario: ' + user.user);
 console.log('Datos del usuario: ' + user.getInfo());
 console.log('Last tweet: ' + user.lastTweet());
@@ -36,6 +37,7 @@ const trending_topic = {
     }
 }
 
+// Pruebas
 console.log('Nombre del hashtag: ' + trending_topic.getName());
 console.log(trending_topic.numberTweets());
 
@@ -54,6 +56,7 @@ const hashtag = {
     }
 }
 
+// Pruebas
 console.log('Nombre del hash: ' + hashtag.hashName());
 console.log('Es popular en: ' + hashtag.popularIn());
 
