@@ -19,6 +19,7 @@ class Repo {
     }
 }
 
+// Instancia de la clase
 const repo1 = new Repo("LaunchX", 
   "AntonioRvaldivia", "JavaScript, HTML, CSS",
   100, 199, 299, 10, 10);

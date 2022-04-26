@@ -19,6 +19,8 @@ class Issue {
   }
 }
 
+
+// Instancia de la clase
 const issue1 = new Issue("02 Live 2 Semana 1", 
 "LaunchX", "Closed", 108, "Semana-1",
 "Lunes 4 de abril", "Miércoles 6 de abril" )

@@ -16,6 +16,7 @@ class PullRequest {
   }
 }
 
+
 // Instancia de la clase
 const pullRequest1 = new PullRequest("Agregar-blog", 
 "main", "Jueves 7 de abril", "closed", "LaunchX")
