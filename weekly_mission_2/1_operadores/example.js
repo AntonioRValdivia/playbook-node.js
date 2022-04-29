@@ -26,11 +26,11 @@ const numbersSquare = numbers4.map(function(num){ return num * num})
 console.log("Ejemplo 4: Imprimiendo la lista de elementos al cuadrado")
 console.log(numbersSquare)
 
-// Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas
+// Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a mayúsculas
 const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook']
 const namesToUpperCase = names.map((name) => name.toUpperCase())
 
-console.log("Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a minúsculas")
+console.log("Ejemplo 5: Uso de Map para convertir todos los nombres de una lista a mayúsculas")
 console.log(namesToUpperCase)
 
 // Ejemplo 6: Uso de map para convertir todos los nombres de una lista a mayúsculas
@@ -101,7 +101,7 @@ console.log("Ejemplo 13: Primer elemento cuya palabra sea mayor a 7 esta en la p
 
 // Ejemplo 14: Uso de some, este método validará todos los elementos de la lista, y si alguno cumple con la validación indicada, regresará true, de lo contrario será false.
 
-// lista de elementos
+// lista de elementos.
 const bools = [true, true, false, true]
 // Uso de Some para ver si al menos uno de los elementos es false
 const areSomeTrue = bools.some((b) =>  b === false)
