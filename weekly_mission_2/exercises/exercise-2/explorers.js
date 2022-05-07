@@ -86,8 +86,8 @@ jsDevs.forEach(explorer => console.log(explorer.name));
 
 // 5. Busca el primer explorer que sea de la CDMX, usa FIND
 
-const found = explorers.find(explorer => explorer.city = "CDMX" );
-console.log('El explorer que vive en CDMX es ' + found.name);
+const found = explorers.find(explorer => explorer.city === "CDMX" );
+console.log('El primer explorer que vive en CDMX es ' + found.name);
 
 // 6. Obtén la suma de todos los exercises_completed, usa REDUCE
 
@@ -100,6 +100,14 @@ sumaEjerciciosCompletos = ejerciciosCompletos.reduce(function(valorAnterior, val
 });
 
 console.log('la suma de ejercicios ' + sumaEjerciciosCompletos)
+
+//Otra forma de resolver el ejercicio 6
+console.log('Forma alterna de resolver el ejercicio')
+
+const all_exercises = 
+explorers.reduce((acc, my_explorer_in_list) => acc + my_explorer_in_list.exercises_completed, 0)
+console.log(all_exercises)
+
 
 
 // 7. Obtén la validación si al menos uno de los explorers tiene la propiedad
